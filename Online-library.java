@@ -3,7 +3,7 @@ class Library{
     String []Books; // Created array
     int no_of_books;
     Library(){
-        this.Books= new String[100]; // giving size of array
+        this.Books= new String[100]; 
         this.no_of_books = 0;
     }
     public void addBooks(String book){
